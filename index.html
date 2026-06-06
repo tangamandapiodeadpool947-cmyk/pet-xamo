@@ -1,12 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>petamo</title>
+    <title>Petamo | Farmacia Veterinaria Especializada</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:,"
+    <!-- Fuentes premium de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Plus+Jakarta+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+    <!-- Sección de Bienvenida / Hero -->
+    <header class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-subtitle">Cuidado experto para su bienestar</span>
+            <h1 class="hero-title">PETAMO</h1>
+            <p class="hero-text">Medicamentos especializados, suplementos y atención farmacéutica profesional para proteger a quienes más quieres.</p>
+            <a href="#productos" class="btn-primary">Ver Catálogo</a>
+        </div>
+    </header>
+
+    <!-- Galería de Productos Destacados -->
+    <main id="productos" class="gallery-container">
+        <div class="section-header">
+            <h2 class="section-title">Productos Destacados</h2>
+            <p class="section-subtitle">Garantía de calidad y laboratorios certificados</p>
+        </div>
+
+        <div class="gallery-grid">
+            <!-- Producto 1 -->
+            <div class="art-card">
+                <div class="art-img-container">
+                    <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=800" alt="Medicamentos de prescripción">
+                    <div class="art-card-overlay">
+                        <a href="https://wa.me/524691342954?text=Hola%20Petamo!%20Me%20interesa%20consultar%20por%20Fármacos%20Clínicos." target="_blank" class="btn-card">Consultar Stock</a>
+                    </div>
+                </div>
+                <div class="art-info">
+                    <h3 class="art-title">Fármacos Clínicos</h3>
+                    <p class="art-specs">Antibióticos, analgésicos y tratamientos de alta especialidad</p>
+                    <div class="art-footer">
+                        <span class="art-price">Consulte Receta</span>
+                        <span class="art-status">Disponibilidad</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="art-card">
+                <div class="art-img-container">
+                    <img src="https://images.unsplash.com/photo-1614859324967-bdf461f0769d?q=80&w=800" alt="Suplementos y vitaminas animales">
+                    <div class="art-card-overlay">
+                        <a href="https://wa.me/524691342954?text=Hola%20Petamo!%20Me%20interesa%20consultar%20por%20Vitaminas%20y%20Suplementos." target="_blank" class="btn-card">Consultar Stock</a>
+                    </div>
+                </div>
+                <div class="art-info">
+                    <h3 class="art-title">Suplementos y Vitaminas</h3>
+                    <p class="art-specs">Nutrición avanzada para el óptimo desarrollo y articulaciones</p>
+                    <div class="art-footer">
+                        <span class="art-price">Línea Premium</span>
+                        <span class="art-status">Destacado</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="art-card">
+                <div class="art-img-container">
+                    <img src="https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?q=80&w=800" alt="Cuidado e Higiene">
+                    <div class="art-card-overlay">
+                        <a href="https://wa.me/524691342954?text=Hola%20Petamo!%20Me%20interesa%20consultar%20por%20Higiene%20y%20Antiparasitarios." target="_blank" class="btn-card">Consultar Stock</a>
+                    </div>
+                </div>
+                <div class="art-info">
+                    <h3 class="art-title">Higiene y Antiparasitarios</h3>
+                    <p class="art-specs">Pipetas, collares y soluciones dermatológicas eficaces</p>
+                    <div class="art-footer">
+                        <span class="art-price">Protección Total</span>
+                        <span class="art-status">Esencial</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Botón Flotante de WhatsApp Permanente con tu número -->
+    <a href="https://wa.me/524691342954?text=Hola%20Petamo!%20Necesito%20hacer%20una%20consulta%20sobre%20medicamentos%20veterinarios." class="whatsapp-floating" target="_blank" rel="noopener noreferrer" title="Contáctanos por WhatsApp">
+        <svg viewBox="0 0 24 24" class="whatsapp-svg">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397 0 12.008 0c3.202.001 6.212 1.246 8.477 3.513 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 12.004-11.953 12.004-.006 0-.012 0-.018 0-2.005-.001-3.975-.51-5.729-1.479L0 24zm6.59-4.846c1.62.962 3.393 1.47 5.216 1.471h.01c5.311 0 9.633-4.322 9.636-9.637a9.548 9.548 0 0 0-2.817-6.822A9.553 9.553 0 0 0 12.008 1.34c-5.317 0-9.643 4.325-9.646 9.642-.001 1.898.499 3.75 1.447 5.385l-.995 3.635 3.723-.976zm11.23-6.195c-.3-.15-1.772-.875-2.046-.975-.276-.101-.476-.15-.676.15-.199.3-.775.976-.95 1.176-.175.2-.351.224-.651.075-1.203-.604-2.122-1.053-2.954-2.484-.219-.376.218-.35.626-1.166.075-.15.038-.282-.019-.391-.056-.11-.476-1.145-.652-1.57-.171-.412-.344-.356-.476-.363-.123-.006-.264-.007-.406-.007-.142 0-.373.053-.57.265-.197.212-.754.737-.754 1.798 0 1.061.772 2.087.88 2.234.108.147 1.517 2.316 3.675 3.247 1.28.553 1.819.64 2.474.542.436-.065 1.332-.544 1.516-1.07.184-.525.184-.975.131-1.07-.054-.094-.199-.143-.499-.293z"/>
+        </svg>
+        <span>Pedir Medicamento</span>
+    </a>
+
+    <!-- Pie de Página / Footer -->
+    <footer class="main-footer">
+        <div class="footer-quote-container">
+            <p class="motivational-quote">"El amor por todas las criaturas vivientes es el atributo más noble del ser humano. En Petamo, protegemos ese vínculo cada día."</p>
+            <span class="quote-author">— Compromiso Petamo</span>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Petamo Farmacia Veterinaria. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
